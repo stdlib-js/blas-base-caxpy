@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "@stdlib/assert-is-error": "^0.2.2",
-    "@stdlib/blas-base-scabs1": "^0.0.1",
+    "@stdlib/blas-base-scabs1": "^0.0.2",
     "@stdlib/complex-float32-base-add": "^0.1.0",
     "@stdlib/complex-float32-base-mul": "^0.1.0",
     "@stdlib/strided-base-stride2offset": "^0.1.0",
@@ -47,14 +47,14 @@
     "@stdlib/utils-try-require": "^0.2.2"
   },
   "devDependencies": {
-    "@stdlib/array-complex64": "^0.2.1",
+    "@stdlib/array-complex64": "^0.3.0",
     "@stdlib/array-filled-by": "^0.2.1",
     "@stdlib/array-float32": "^0.2.2",
-    "@stdlib/array-zeros": "^0.2.1",
+    "@stdlib/array-zeros": "^0.2.2",
     "@stdlib/assert-is-browser": "^0.2.2",
     "@stdlib/blas-base-ccopy": "^0.3.0",
     "@stdlib/complex-float32-ctor": "^0.0.2",
-    "@stdlib/console-log-each": "^0.2.1",
+    "@stdlib/console-log-each": "^0.2.2",
     "@stdlib/constants-float32-eps": "^0.2.2",
     "@stdlib/math-base-assert-is-nanf": "^0.2.2",
     "@stdlib/math-base-special-abs": "^0.2.2",
