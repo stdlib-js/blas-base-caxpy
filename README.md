@@ -35,14 +35,32 @@ limitations under the License.
 
 > Scale a single-precision complex floating-point vector by a single-precision complex floating-point constant and add the result to a single-precision complex floating-point vector.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/blas-base-caxpy
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import caxpy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-caxpy@esm/index.mjs';
+var caxpy = require( '@stdlib/blas-base-caxpy' );
 ```
 
 #### caxpy( N, ca, cx, strideX, cy, strideY )
@@ -50,10 +68,10 @@ import caxpy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-caxpy@esm/ind
 Scales values from `cx` by `ca` and adds the result to `cy`.
 
 ```javascript
-import Complex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@esm/index.mjs';
-import Complex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-ctor@esm/index.mjs';
-import realf from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-real@esm/index.mjs';
-import imagf from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-imag@esm/index.mjs';
+var Complex64Array = require( '@stdlib/array-complex64' );
+var Complex64 = require( '@stdlib/complex-float32-ctor' );
+var realf = require( '@stdlib/complex-float32-real' );
+var imagf = require( '@stdlib/complex-float32-imag' );
 
 var cx = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
 var cy = new Complex64Array( [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ] );
@@ -83,10 +101,10 @@ The function has the following parameters:
 The `N` and stride parameters determine how values from `cx` are scaled by `ca` and added to `cy`. For example, to scale every other value in `cx` by `ca` and add the result to every other value of `cy`,
 
 ```javascript
-import Complex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@esm/index.mjs';
-import Complex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-ctor@esm/index.mjs';
-import realf from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-real@esm/index.mjs';
-import imagf from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-imag@esm/index.mjs';
+var Complex64Array = require( '@stdlib/array-complex64' );
+var Complex64 = require( '@stdlib/complex-float32-ctor' );
+var realf = require( '@stdlib/complex-float32-real' );
+var imagf = require( '@stdlib/complex-float32-imag' );
 
 var cx = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
 var cy = new Complex64Array( [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ] );
@@ -109,10 +127,10 @@ Note that indexing is relative to the first index. To introduce an offset, use [
 <!-- eslint-disable stdlib/capitalized-comments -->
 
 ```javascript
-import Complex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@esm/index.mjs';
-import Complex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-ctor@esm/index.mjs';
-import realf from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-real@esm/index.mjs';
-import imagf from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-imag@esm/index.mjs';
+var Complex64Array = require( '@stdlib/array-complex64' );
+var Complex64 = require( '@stdlib/complex-float32-ctor' );
+var realf = require( '@stdlib/complex-float32-real' );
+var imagf = require( '@stdlib/complex-float32-imag' );
 
 // Initial arrays...
 var cx0 = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
@@ -143,10 +161,10 @@ var im = imagf( z );
 Scales values from `cx` by `ca` and adds the result to `cy` using alternative indexing semantics.
 
 ```javascript
-import Complex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@esm/index.mjs';
-import Complex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-ctor@esm/index.mjs';
-import realf from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-real@esm/index.mjs';
-import imagf from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-imag@esm/index.mjs';
+var Complex64Array = require( '@stdlib/array-complex64' );
+var Complex64 = require( '@stdlib/complex-float32-ctor' );
+var realf = require( '@stdlib/complex-float32-real' );
+var imagf = require( '@stdlib/complex-float32-imag' );
 
 var cx = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
 var cy = new Complex64Array( [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ] );
@@ -172,10 +190,10 @@ The function has the following additional parameters:
 While [`typed array`][mdn-typed-array] views mandate a view offset based on the underlying buffer, the offset parameters support indexing semantics based on starting indices. For example, to scale values in the first input strided array starting from the second element and add the result to the second input array starting from the second element,
 
 ```javascript
-import Complex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@esm/index.mjs';
-import Complex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-ctor@esm/index.mjs';
-import realf from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-real@esm/index.mjs';
-import imagf from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-imag@esm/index.mjs';
+var Complex64Array = require( '@stdlib/array-complex64' );
+var Complex64 = require( '@stdlib/complex-float32-ctor' );
+var realf = require( '@stdlib/complex-float32-real' );
+var imagf = require( '@stdlib/complex-float32-imag' );
 
 var cx = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
 var cy = new Complex64Array( [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ] );
@@ -214,19 +232,14 @@ var im = imagf( z );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@esm/index.mjs';
-import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
-import Complex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-ctor@esm/index.mjs';
-import ccopy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-ccopy@esm/index.mjs';
-import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-zeros@esm/index.mjs';
-import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@esm/index.mjs';
-import caxpy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-caxpy@esm/index.mjs';
+```javascript
+var discreteUniform = require( '@stdlib/random-base-discrete-uniform' );
+var filledarrayBy = require( '@stdlib/array-filled-by' );
+var Complex64 = require( '@stdlib/complex-float32-ctor' );
+var ccopy = require( '@stdlib/blas-base-ccopy' );
+var zeros = require( '@stdlib/array-zeros' );
+var logEach = require( '@stdlib/console-log-each' );
+var caxpy = require( '@stdlib/blas-base-caxpy' );
 
 function rand() {
     return new Complex64( discreteUniform( 0, 10 ), discreteUniform( -5, 5 ) );
@@ -243,10 +256,6 @@ caxpy( cx.length, ca, cx, 1, cy, 1 );
 
 // Print the results:
 logEach( '(%s)*(%s) + (%s) = %s', ca, cx, cyc, cy );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -270,7 +279,7 @@ logEach( '(%s)*(%s) + (%s) = %s', ca, cx, cyc, cy );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -339,9 +348,9 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
-[@stdlib/array/complex64]: https://github.com/stdlib-js/array-complex64/tree/esm
+[@stdlib/array/complex64]: https://github.com/stdlib-js/array-complex64
 
-[@stdlib/complex/float32/ctor]: https://github.com/stdlib-js/complex-float32-ctor/tree/esm
+[@stdlib/complex/float32/ctor]: https://github.com/stdlib-js/complex-float32-ctor
 
 </section>
 
