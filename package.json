@@ -14,11 +14,15 @@
     }
   ],
   "main": "./lib",
+  "browser": "./lib/main.js",
+  "gypfile": false,
   "directories": {
     "benchmark": "./benchmark",
     "doc": "./docs",
     "example": "./examples",
+    "include": "./include",
     "lib": "./lib",
+    "src": "./src",
     "test": "./test"
   },
   "types": "./docs/types",
@@ -39,11 +43,20 @@
   "dependencies": {
     "@stdlib/assert-is-error": "^0.2.2",
     "@stdlib/blas-base-scabs1": "^0.0.2",
+    "@stdlib/blas-base-shared": "^0.1.0",
     "@stdlib/complex-float32-base-add": "^0.1.0",
     "@stdlib/complex-float32-base-mul": "^0.1.0",
+    "@stdlib/complex-float32-ctor": "^0.0.2",
+    "@stdlib/napi-argv": "^0.2.2",
+    "@stdlib/napi-argv-complex64": "^0.0.2",
+    "@stdlib/napi-argv-int64": "^0.2.2",
+    "@stdlib/napi-argv-strided-complex64array": "^0.2.2",
+    "@stdlib/napi-export": "^0.2.2",
+    "@stdlib/strided-base-min-view-buffer-index": "^0.2.2",
     "@stdlib/strided-base-stride2offset": "^0.1.0",
     "@stdlib/types": "^0.4.3",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2",
+    "@stdlib/utils-library-manifest": "^0.2.2",
     "@stdlib/utils-try-require": "^0.2.2"
   },
   "devDependencies": {
@@ -53,7 +66,6 @@
     "@stdlib/array-zeros": "^0.2.2",
     "@stdlib/assert-is-browser": "^0.2.2",
     "@stdlib/blas-base-ccopy": "^0.3.0",
-    "@stdlib/complex-float32-ctor": "^0.0.2",
     "@stdlib/console-log-each": "^0.2.2",
     "@stdlib/constants-float32-eps": "^0.2.2",
     "@stdlib/math-base-assert-is-nanf": "^0.2.2",
