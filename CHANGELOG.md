@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-23)
+## Unreleased (2025-04-03)
 
 <section class="features">
 
@@ -22,6 +22,8 @@
 
 <details>
 
+-   [`d7583fb`](https://github.com/stdlib-js/stdlib/commit/d7583fbaca5c40a68bf25d4555b60a2b211b1f6e) - **test:** increase code coverage in `blas/base/caxpy` [(#6530)](https://github.com/stdlib-js/stdlib/pull/6530) _(by Shabareesh Shetty, Athan Reines)_
+-   [`9f88c8c`](https://github.com/stdlib-js/stdlib/commit/9f88c8cecfa7e8d67aa05a6419f2d4efd73943ff) - **docs:** update examples for `blas/base/caxpy` [(#4925)](https://github.com/stdlib-js/stdlib/pull/4925) _(by Gururaj Gurram)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
 -   [`b6ee443`](https://github.com/stdlib-js/stdlib/commit/b6ee443347db7dcd18b281f99a0617b3b64d86fc) - **feat:** add C `ndarray` implementation for `blas/base/caxpy` [(#3456)](https://github.com/stdlib-js/stdlib/pull/3456) _(by Aman Bhansali, Athan Reines)_
 -   [`8f72b43`](https://github.com/stdlib-js/stdlib/commit/8f72b432c0fc81a78641d5689722ecc9671c6f02) - **style:** add missing spaces around parentheses _(by Philipp Burckhardt)_
@@ -37,11 +39,13 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Aman Bhansali
 -   Athan Reines
+-   Gururaj Gurram
 -   Philipp Burckhardt
+-   Shabareesh Shetty
 
 </section>
 
