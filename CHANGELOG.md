@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-03)
+## Unreleased (2025-06-01)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`8082b9b`](https://github.com/stdlib-js/stdlib/commit/8082b9b709667b420e451dde8ca3684d25ecd73d) - **docs:** change variable naming in `blas/base/caxpy` [(#6796)](https://github.com/stdlib-js/stdlib/pull/6796) _(by Shabareesh Shetty, Athan Reines)_
 -   [`d7583fb`](https://github.com/stdlib-js/stdlib/commit/d7583fbaca5c40a68bf25d4555b60a2b211b1f6e) - **test:** increase code coverage in `blas/base/caxpy` [(#6530)](https://github.com/stdlib-js/stdlib/pull/6530) _(by Shabareesh Shetty, Athan Reines)_
 -   [`9f88c8c`](https://github.com/stdlib-js/stdlib/commit/9f88c8cecfa7e8d67aa05a6419f2d4efd73943ff) - **docs:** update examples for `blas/base/caxpy` [(#4925)](https://github.com/stdlib-js/stdlib/pull/4925) _(by Gururaj Gurram)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
