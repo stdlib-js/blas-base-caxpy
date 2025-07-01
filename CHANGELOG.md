@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-25)
+## Unreleased (2025-07-01)
 
 <section class="features">
 
@@ -16,12 +16,23 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`ae34cce`](https://github.com/stdlib-js/stdlib/commit/ae34cce2706107d6738b4830d43e4130ff7399e4) - update `caxpy` manifest to include missing dependencies for Mac builds
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`ae34cce`](https://github.com/stdlib-js/stdlib/commit/ae34cce2706107d6738b4830d43e4130ff7399e4) - **fix:** update `caxpy` manifest to include missing dependencies for Mac builds _(by Philipp Burckhardt)_
 -   [`7c9afed`](https://github.com/stdlib-js/stdlib/commit/7c9afed6a288c9e7d3048dfa0ac8f085759d73f4) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`8082b9b`](https://github.com/stdlib-js/stdlib/commit/8082b9b709667b420e451dde8ca3684d25ecd73d) - **docs:** change variable naming in `blas/base/caxpy` [(#6796)](https://github.com/stdlib-js/stdlib/pull/6796) _(by Shabareesh Shetty, Athan Reines)_
 -   [`d7583fb`](https://github.com/stdlib-js/stdlib/commit/d7583fbaca5c40a68bf25d4555b60a2b211b1f6e) - **test:** increase code coverage in `blas/base/caxpy` [(#6530)](https://github.com/stdlib-js/stdlib/pull/6530) _(by Shabareesh Shetty, Athan Reines)_
