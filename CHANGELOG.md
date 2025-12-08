@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-20)
+## Unreleased (2025-12-08)
 
 <section class="features">
 
@@ -32,6 +32,7 @@
 
 <details>
 
+-   [`74cc5b7`](https://github.com/stdlib-js/stdlib/commit/74cc5b707c7b46cecda166f2a6b4b40e722a29bd) - **bench:** refactor to use dynamic memory allocation in `blas/base/caxpy` [(#8885)](https://github.com/stdlib-js/stdlib/pull/8885) _(by Ishwar)_
 -   [`4977993`](https://github.com/stdlib-js/stdlib/commit/4977993a257fde660b0f8c5678ab0c8d6e26538a) - **docs:** fix example code _(by Philipp Burckhardt)_
 -   [`a9776fd`](https://github.com/stdlib-js/stdlib/commit/a9776fdca0331c293eade49bd195836fbb434999) - **refactor:** update include header guards for single precision complex packages [(#7708)](https://github.com/stdlib-js/stdlib/pull/7708) _(by Shabareesh Shetty)_
 -   [`ae34cce`](https://github.com/stdlib-js/stdlib/commit/ae34cce2706107d6738b4830d43e4130ff7399e4) - **fix:** update `caxpy` manifest to include missing dependencies for Mac builds _(by Philipp Burckhardt)_
@@ -54,11 +55,12 @@
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Aman Bhansali
 -   Athan Reines
 -   Gururaj Gurram
+-   Ishwar
 -   Philipp Burckhardt
 -   Shabareesh Shetty
 
