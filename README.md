@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import caxpy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-caxpy@deno/mod.js';
+import caxpy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-caxpy@v0.2.0-deno/mod.js';
 ```
 
 #### caxpy( N, alpha, x, strideX, y, strideY )
@@ -171,7 +171,7 @@ import Complex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-cto
 import ccopy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-ccopy@deno/mod.js';
 import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-zeros@deno/mod.js';
 import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@deno/mod.js';
-import caxpy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-caxpy@deno/mod.js';
+import caxpy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-caxpy@v0.2.0-deno/mod.js';
 
 function rand() {
     return new Complex64( discreteUniform( 0, 10 ), discreteUniform( -5, 5 ) );
