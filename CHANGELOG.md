@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-02-23)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`7bb3870`](https://github.com/stdlib-js/stdlib/commit/7bb3870f66f09ffa34133204b0e02bc9411c9e6d) - **bench:** refactor to use string interpolation in `blas/base/caxpy` [(#10367)](https://github.com/stdlib-js/stdlib/pull/10367) _(by Shubham)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Shubham
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.1">
 
 ## 0.2.1 (2026-02-08)
