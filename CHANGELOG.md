@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-12)
+## Unreleased (2026-10-13)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`1f923e3`](https://github.com/stdlib-js/stdlib/commit/1f923e38c3e5b4c00bde76e050f015d10670d51c) - **chore:** clean-up [(#16091)](https://github.com/stdlib-js/stdlib/pull/16091) _(by Philipp Burckhardt)_
 -   [`dd7bec5`](https://github.com/stdlib-js/stdlib/commit/dd7bec53bce1f0fd11eed9c64a7859eb54eb686c) - **test:** migrate `blas/base/caxpy` to ULP-based assertions [(#15941)](https://github.com/stdlib-js/stdlib/pull/15941) _(by Athan Reines)_
 -   [`72b23ea`](https://github.com/stdlib-js/stdlib/commit/72b23ea594cad1265cd358ade0e366d682f5858d) - **chore:** clean-up [(#14383)](https://github.com/stdlib-js/stdlib/pull/14383) _(by Philipp Burckhardt)_
 -   [`ec68ca7`](https://github.com/stdlib-js/stdlib/commit/ec68ca7cc35210db29a028d561ec71968e2ff753) - **docs:** fix TSDoc errors in `blas` declarations [(#12529)](https://github.com/stdlib-js/stdlib/pull/12529) _(by Philipp Burckhardt, Athan Reines)_
